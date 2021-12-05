@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
+import type { Node } from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -26,8 +26,9 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import SmsConfirmation from './android/sms_confirmation_page';
+import TariffInformation from './TariffInformation';
 
-const Section = ({children, title}): Node => {
+const Section = ({ children, title }): Node => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
@@ -61,7 +62,7 @@ const App: () => Node = () => {
   };
 
   return (
-    <SmsConfirmation/>
+    <TariffInformation />
   );
 };
 

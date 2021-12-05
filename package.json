@@ -16,6 +16,7 @@
     "react-native-elements": "^3.4.2",
     "react-native-mmkv": "^1.5.3",
     "react-native-safe-area-context": "^3.3.2",
+    "react-native-shared-element": "^0.8.3",
     "react-native-vector-icons": "^9.0.0"
   },
   "devDependencies": {
